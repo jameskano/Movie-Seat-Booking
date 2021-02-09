@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie Seat Booking</title>
+
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="peliculas">
+      <div class="pelis-izq">
+        <p>Choose a movie</p>
+      </div>
+
+      <!-- Películas -->
+      <div class="pelis-der">
+        <select class="" name="">
+          <option value="">The Lord of the Rings</option>
+          <option value="">The Godfather</option>
+          <option value="">Sanjuro</option>
+          <option value="">Perfect Blue</option>
+          <option value="">Fight Club</option>
+          <option value="">Drive</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Información sobre los sitios -->
+    <div class="sitios">
+      <div class="asientos ocupado"></div>
+      <small class="">occupied</small>
+
+      <div class="asientos"></div>
+      <small class="">free</small>
+
+      <div class="asientos seleccionado"></div>
+      <small class="">selected</small>
+    </div>
+
+    <!-- Pantalla y filas de asientos -->
+    <div class="sala">
+      <div class="pantalla"></div>
+
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+      </div>
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+      </div>
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+      </div>
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+      </div>
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+      </div>
+      <div class="filas">
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos ocupado"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+        <div class="asientos"></div>
+      </div>
+    </div>
+
+    <p>You have selected <span id="sitios-seleccionados">0</span> seats for <span id="precio-total">0</span> €</p>
+
+    <p>Entry price 6€</p>
+
+  </div>
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
