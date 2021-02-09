@@ -16,8 +16,10 @@ if(sitiosElegidos !== null && sitiosElegidos.length > 0) {
 }
 
 // Mostrar sitios guardados
-sitiosSeleccionados.innerHTML = sitiosElegidos.length - 1;
-precioTotal.innerHTML = (sitiosElegidos.length - 1) * 6;
+if(sitiosElegidos) {
+ sitiosSeleccionados.innerHTML = sitiosElegidos.length - 1;
+ precioTotal.innerHTML = (sitiosElegidos.length - 1) * 6; 
+}
 
 // Añadir y quitar sitios
 container.addEventListener("click", function(e) {
